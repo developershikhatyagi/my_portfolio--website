@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="site-main-wrapper">
+      <button class="hamberger">
+        <img src="./images/hamberger.svg" alt="" />
+      </button>
+
+      <div class="mobile-nav">
+        <button class="times"><img src="./images/times.svg" alt="" /></button>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <header>
+        <div class="container">
+          <nav id="main-nav" class="flex items-center justify-between">
+            <div class="left flex items-center">
+              <div class="branding">
+                <img src="./images/logo.svg" alt="" />
+              </div>
+              <div>
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#work">Work</a>
+                <a href="#blog">Blog</a>
+              </div>
+            </div>
+            <div class="right">
+              <button class="btn btn-primary">Contact</button>
+            </div>
+          </nav>
+          <div
+            class="hero flex items-center justify-between"
+            id="profile_ripple"
+          >
+            <div class="left flex-1 flex justify-center">
+              <img src="./images/image-me.png" alt="" />
+            </div>
+            <div class="right flex-1">
+              <h6>Shikha Tyagi</h6>
+              <h1>I’m a Creative <span>Software Developer</span></h1>
+              <p>
+                IT Professional, looking forward to build a career in software
+                field, having good knowledge of CSS, JS. Worked on frontend.
+                Also have knowledge required of be a Software Developer.
+              </p>
+              <div>
+                <button class="btn btn-secondary">DOWNLOAD CV</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section id="about" class="about">
+        <div class="container flex items-center about-inner-wrap">
+          <div class="flex-1">
+            <img class="about-me-img" src="./images/image-me.png" alt="" />
+          </div>
+          <div class="flex-1 right">
+            <h1>About <span>Me</span></h1>
+            <h3>Hello! i’m Shikha Tyagi.</h3>
+            <p>
+              I am a passionate Software Developer with hands-on experience in
+              building dynamic and scalable web applications using modern
+              JavaScript frameworks like React.js and Redux Toolkit. With a
+              practical exposure of 3 years in real-world React.js projects,
+              backed by a 3-month intensive internship, I specialize in crafting
+              seamless user interfaces and responsive web solutions. My
+              expertise extends across a wide tech stack — JavaScript, React.js, 
+              Angular, Angular Material, Bootstrap, nginix, Web- Server
+              Redux Toolkit, Socket.io, Node.js, Express.js, MongoDB, HTML5,
+              CSS3, with a keen understanding of TCP/IP, DNS, and HTTP
+              protocols. I believe in delivering not just code, but impactful
+              solutions that solve real problems. Constant learning, clean
+              architecture, and teamwork drive my journey as a creative
+              developer. Let’s connect and build something extraordinary
+              together.
+            </p>
+            <div class="social">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/shikha7827/"
+                ><img src="./images/linkedin.png" alt=""
+              /></a>
+              <a target="_blank" href="">
+                <img style="width: 2.9rem" src="./images/twiter.png" alt=""
+              /></a>
+              <a target="_blank" href="https://github.com/developershikhatyagi">
+                <img
+                  style="width: 2.7rem; border-radius: 50%"
+                  src="./images/github.gif"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="services">
+        <div class="container">
+          <h1 class="section-heading"><span>My </span>Projects</h1>
+          <p>
+            We provide high standar clean website for your business solutions
+          </p>
+          <div class="card-wrapper">
+            <div class="card">
+              <img style="width: 7rem" src="./images/ui-design.png" alt="" />
+              <h2>🍕 Shikha Food Pizza - React Shopping Cart App</h2>
+              <p>
+                A fully functional and beautifully designed React Pizza Cart
+                Application built with Context API, Tailwind CSS, and live toast
+                notifications. Includes cart persistence via localStorage and
+                dynamic product fetching from API.
+              </p>
+              <a
+                href="https://vimal-food-pizza.vercel.app/"
+                target="_blank"
+                style="
+                  color: white;
+                  background: #007bff;
+                  padding: 0.5rem 1rem;
+                  border-radius: 5px;
+                  text-decoration: none;
+                  display: inline-block;
+                  margin-top: 0.5rem;
+                "
+              >
+                🔗 Live Project
+              </a>
+            </div>
+            <div class="card">
+              <img style="width: 7rem" src="./images/ui-design.png" alt="" />
+              <h2>🛒 Redux Toolkit Cart App</h2>
+              <p>
+                This is a simple React-Redux based Cart Application with state
+                persistence using Redux Toolkit and Redux Persist. Users can
+                view a list of products and add them to the cart. The cart
+                retains its state even after a page refresh.
+              </p>
+              <a
+                href="https://vkc-redux-s.vercel.app/"
+                target="_blank"
+                style="
+                  color: white;
+                  background: #007bff;
+                  padding: 0.5rem 1rem;
+                  border-radius: 5px;
+                  text-decoration: none;
+                  display: inline-block;
+                  margin-top: 0.5rem;
+                "
+              >
+                🔗 Live Project
+              </a>
+            </div>
+            <div class="card">
+              <img style="width: 7rem" src="./images/ui-design.png" alt="" />
+              <h2>💸 Personal Finance Assistant (CLI) — Powered by Groq SDK</h2>
+              <p>
+                A conversational CLI-based personal finance assistant built with
+                **Node.js + Bun + Groq SDK**. The assistant (Cortana) helps you
+                track expenses, get monthly summaries, and plan your finances
+                using function-calling via Groq.
+              </p>
+              <a
+                href="https://github.com/Munchunnce/vimestor_ai"
+                target="_blank"
+                style="
+                  color: white;
+                  background: #007bff;
+                  padding: 0.5rem 1rem;
+                  border-radius: 5px;
+                  text-decoration: none;
+                  display: inline-block;
+                  margin-top: 0.5rem;
+                "
+              >
+                🔗 Github Link
+              </a>
+            </div>
+            <div class="card">
+              <img style="width: 7rem" src="./images/ui-design.png" alt="" />
+              <h2>💻 Realtime Code Editor 🧠</h2>
+              <p>
+                A lightning-fast collaborative code editor built using React.js,
+                Socket.IO, and Express.js that lets multiple users write and
+                share code in real-time!
+              </p>
+              <a
+                href="https://github.com/Munchunnce/realtime-editor-V"
+                target="_blank"
+                style="
+                  color: white;
+                  background: #007bff;
+                  padding: 0.5rem 1rem;
+                  border-radius: 5px;
+                  text-decoration: none;
+                  display: inline-block;
+                  margin-top: 0.5rem;
+                "
+              >
+                🔗 Github Link
+              </a>
+            </div>
+            <div class="card">
+              <img style="width: 7rem" src="./images/backend.png" alt="" />
+              <h2>Premium Choco Quick Commerce</h2>
+              <p>
+                Why wait? Our 10-minute delivery service brings your favorite
+                chocolates right to your door, swiftly and reliably. Convenience
+                and indulgence, all in one package.
+              </p>
+              <a
+                href="https://chocovimal.vercel.app/"
+                target="_blank"
+                style="
+                  color: white;
+                  background: #007bff;
+                  padding: 0.5rem 1rem;
+                  border-radius: 5px;
+                  text-decoration: none;
+                  display: inline-block;
+                  margin-top: 0.5rem;
+                "
+              >
+                🔗 Live Project
+              </a>
+              <a
+                href="https://github.com/Munchunnce/chocovimal"
+                target="_blank"
+                style="
+                  color: white;
+                  background: #007bff;
+                  padding: 0.5rem 1rem;
+                  border-radius: 5px;
+                  text-decoration: none;
+                  display: inline-block;
+                  margin-top: 0.5rem;
+                "
+              >
+                🔗 Github Link
+              </a>
+            </div>
+            <div class="card">
+              <img style="width: 7rem" src="./images/ui-design.png" alt="" />
+              <h2>💬 Realtime Chat with Voice Message App</h2>
+              <p>
+                A real-time chat application built with
+                <strong>React.js</strong>, <strong>WebSocket</strong>,
+                <strong>Node.js</strong>, <strong>Express.js</strong>, and
+                <strong>MongoDB</strong>. Features secure user authentication
+                using <strong>Access Token</strong> and
+                <strong>Refresh Token</strong> mechanism with
+                <strong>OTP-based mobile verification</strong>. Users can
+                exchange text messages and
+                <strong>send voice/audio messages in real-time</strong>. Built
+                for seamless real-time communication experience.
+              </p>
+              <a
+                href="https://github.com/Munchunnce/coderhouse"
+                target="_blank"
+                style="
+                  color: white;
+                  background: #007bff;
+                  padding: 0.5rem 1rem;
+                  border-radius: 5px;
+                  text-decoration: none;
+                  display: inline-block;
+                  margin-top: 0.5rem;
+                "
+              >
+                🔗 Github Link
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="services">
+        <div class="container">
+          <h1 class="section-heading"><span>Our </span>Services</h1>
+          <p>
+            We provide high standar clean website for your business solutions
+          </p>
+          <div class="card-wrapper">
+            <div class="card">
+              <img style="width: 7rem" src="./images/ui-design.png" alt="" />
+              <h2>Graphic Design</h2>
+              <p>
+                There are many variations of passages of but the majority have
+                suffered alteration in some form.
+              </p>
+            </div>
+            <div class="card">
+              <img style="width: 7rem" src="./images/ui-design.png" alt="" />
+              <h2>Web Development</h2>
+              <p>
+                There are many variations of passages of but the majority have
+                suffered alteration in some form.
+              </p>
+            </div>
+            <div class="card">
+              <img style="width: 7rem" src="./images/ui-design.png" alt="" />
+              <h2>Software Developer</h2>
+              <p>
+                There are many variations of passages of but the majority have
+                suffered alteration in some form.
+              </p>
+            </div>
+            <div class="card">
+              <img style="width: 7rem" src="./images/ui-design.png" alt="" />
+              <h2>UI/UX</h2>
+              <p>
+                There are many variations of passages of but the majority have
+                suffered alteration in some form.
+              </p>
+            </div>
+            <div class="card">
+              <img style="width: 7rem" src="./images/backend.png" alt="" />
+              <h2>Backend Engineer</h2>
+              <p>
+                There are many variations of passages of but the majority have
+                suffered alteration in some form.
+              </p>
+            </div>
+            <div class="card">
+              <img style="width: 7rem" src="./images/ui-design.png" alt="" />
+              <h2>Frontend Developer</h2>
+              <p>
+                There are many variations of passages of but the majority have
+                suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="freelancer">
+        <h1>I Am Available For Freelancer.</h1>
+        <p>We provide high standar clean website for your business solutions</p>
+        <button class="btn btn-primary">Download CV</button>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span> Client</h1>
+          <p>
+            We provide high standar clean website for your business solutions
+          </p>
+          <div class="slider">
+            <div class="slide">
+              <img src="./images/lady.png" alt="" />
+              <p>
+                "Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum"
+              </p>
+              <span>- John Doel, Company ABC</span>
+            </div>
+            <div class="slide">
+              <img src="./images/lady.png" alt="" />
+              <p>
+                "Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum"
+              </p>
+              <span>- John Doel, Company ABC</span>
+            </div>
+            <div class="slide">
+              <img src="./images/lady.png" alt="" />
+              <p>
+                "Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum"
+              </p>
+              <span>- John Doel, Company ABC</span>
+            </div>
+            <div class="slide">
+              <img src="./images/lady.png" alt="" />
+              <p>
+                "Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum"
+              </p>
+              <span>- John Doel, Company ABC</span>
+            </div>
+          </div>
+          <div class="slider-dots"></div>
+        </div>
+      </section>
+
+      <section id="work" class="work">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span> Works</h1>
+          <p>
+            We provide high standar clean website for your business solutions
+          </p>
+
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web development</a>
+              </div>
+              <img src="./images/ph-1.png" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Software development</a>
+              </div>
+              <img src="./images/ph-1.png" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Backend development</a>
+              </div>
+              <img src="./images/ph-1.png" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Fullstack development</a>
+              </div>
+              <img src="./images/ph-1.png" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">DevOps Engineer</a>
+              </div>
+              <img src="./images/ph-1.png" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Frontend development</a>
+              </div>
+              <img src="./images/ph-1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="blog" class="blog our_ripple">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span> Blog</h1>
+          <p>
+            We provide high standar clean website for your business solutions
+          </p>
+
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./images/article-ph-1.png" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#">
+                  <h1>Mastering JavaScript & React — Tips and Insights</h1>
+                </a>
+                <span>July 20, 2025</span>
+                <p>
+                  Welcome to our world of insights and innovation! Here, we
+                  share valuable knowledge, practical coding tips, and
+                  real-world experiences to help you grow and succeed. Stay
+                  connected for the latest updates, tech tutorials, and
+                  inspiring stories.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./images/article-ph-1.png" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#">
+                  <h1>Stay Ahead with Practical Coding Knowledge</h1>
+                </a>
+                <span>July 20, 2025</span>
+                <p>
+                  Welcome to our world of insights and innovation! Here, we
+                  share valuable knowledge, practical coding tips, and
+                  real-world experiences to help you grow and succeed. Stay
+                  connected for the latest updates, tech tutorials, and
+                  inspiring stories.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./images/article-ph-1.png" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#">
+                  <h1>Code Smarter, Grow Faster</h1>
+                </a>
+                <span>July 20, 2025</span>
+                <p>
+                  Welcome to our world of insights and innovation! Here, we
+                  share valuable knowledge, practical coding tips, and
+                  real-world experiences to help you grow and succeed. Stay
+                  connected for the latest updates, tech tutorials, and
+                  inspiring stories.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <h1 class="section-heading">Contact <span>Us</span></h1>
+          <p>
+            We provide high standar clean website for your business solutions
+          </p>
+          <div class="card-wrapper">
+            <div class="card">
+              <img src="./images/icons-phone.gif" alt="" />
+              <h1>Call Us On</h1>
+              <h6>+91- 7827094480</h6>
+            </div>
+            <div class="card">
+              <img
+                style="width: 3.1rem"
+                src="./images/reshot-icon-email.svg"
+                alt=""
+              />
+              <h1>Email Us At</h1>
+              <h6>shikhatyagi419@gmail.com</h6>
+            </div>
+            <div class="card">
+              <img src="./images/icons8-visit.gif" alt="" />
+              <h1>Visit Office</h1>
+              <h6>Gurgaon, Haryana</h6>
+            </div>
+          </div>
+
+          <form action="">
+            <div class="input-wrap">
+              <input type="text" placeholder="Your Name *" />
+              <input type="email" placeholder="Your Email *" />
+            </div>
+            <div class="input-wrap-2">
+              <input type="text" placeholder="Your Subject..." />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Your Message..."
+              ></textarea>
+            </div>
+            <div class="btn-wrapper">
+              <button class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer class="our_ripple">
+        <!-- <img class="footer-logo" src="./images/logo-2.svg" alt="" /> -->
+        <div class="footer-socials">
+          <!-- <a href="#"><img src="./images/website.svg" alt="" /></a> -->
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/vimal-kumar-chaudhary-7890961a6/"
+            ><img src="./images/linkedin.png" alt=""
+          /></a>
+          <!-- <a target="_blank" href="https://x.com/home">
+            <img style="width: 2.9rem" src="./images/twiter.png" alt=""
+          /></a> -->
+          <!-- <a href="#"> <img src="./images/pintrest.svg" alt="" /></a> -->
+          <a target="_blank" href="https://github.com/Munchunnce/">
+            <img
+              style="width: 2.7rem; border-radius: 50%"
+              src="./images/github.gif"
+              alt=""
+          /></a>
+        </div>
+        <div class="copyright">Copyright 2025 © Shikha Tyagi</div>
+      </footer>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script src="./plugins/ripple.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
